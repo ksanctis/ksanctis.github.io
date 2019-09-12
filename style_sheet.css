@@ -1,0 +1,79 @@
+body {
+    background-image: url("background_image1.jpg");
+    margin-right: 6%;
+    margin-left: 6%;
+    font-family: "Times New Roman", Times, serif;
+    font-style: oblique;
+}
+  
+img.second {
+    position: fixed;
+    top: 0%;
+    left: 4%;
+    right: 4%;
+    bottom: 100%;
+    z-index: -1;
+}
+  
+h1, h2.h2{
+    text-align: center;
+    color: black;
+}
+
+h2.white {
+    color: white;
+}
+
+h2.black {
+    color: black;
+}
+
+div.links {
+    width: 165px;
+    border: 3px solid black;
+    background-color: #333;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+  
+div.skills, div.education, div.projects, div.organizations {
+    border: 3px solid black;
+    padding: 5px 10px;
+    background-color: lightgrey;
+    color: black;
+}
+
+div.about, div.contact, div.employment, div.volunteering, div.awards {
+    border: 3px solid white;
+    padding: 5px 10px;
+    background-color:lightskyblue;
+    color: white;
+}
+
+div.info {
+    border: 3px solid black;
+    padding: 10px;
+}
+
+div.dates, div.rating {
+    float: right;
+    font-size: medium;
+}
+  
+div.column1 {
+    width: 35%;
+    float: left;
+}
+
+div.column2 {
+    width: 63%;
+    float: right;
+}
+
+i.content {
+    visibility: hidden;
+}
+
+div.header {
+    font-size: large;
+}
