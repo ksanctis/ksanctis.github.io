@@ -21,11 +21,11 @@ h1, h2.h2{
 }
 
 h2.white {
-    color: white;
+    color: whitesmoke;
 }
 
 h2.black {
-    color: black;
+    color: whitesmoke;
 }
 
 div.links {
@@ -39,15 +39,15 @@ div.links {
 div.skills, div.education, div.projects, div.organizations {
     border: 3px solid black;
     padding: 5px 10px;
-    background-color: lightgrey;
+    background-color:#b2bec3;
     color: black;
 }
 
 div.about, div.contact, div.employment, div.volunteering, div.awards {
-    border: 3px solid white;
+    border: 3px solid black;
     padding: 5px 10px;
-    background-color:lightskyblue;
-    color: white;
+    background-color:#487eb0;
+    color: black;
 }
 
 div.info {
